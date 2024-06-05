@@ -7,7 +7,7 @@ public class seleniumilktest {
         System.setProperty("webdriver.chrome.driver","src/resources/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
-        //driver.close();
+        driver.close();
 
 
     }
