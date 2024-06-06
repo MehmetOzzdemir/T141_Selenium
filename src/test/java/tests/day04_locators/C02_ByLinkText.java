@@ -45,8 +45,8 @@ public class C02_ByLinkText {
         //productLinkElementi.click();
         // bunu bulamadigi icin partialLinkText()
 
-        WebElement productPartialLinkTextElementi = driver.findElement(By.partialLinkText("Products"));
-        productPartialLinkTextElementi.click();
+        WebElement productPartialLinkTextElement = driver.findElement(By.partialLinkText("Products"));
+        productPartialLinkTextElement.click();
 
         //5- special offer yazisinin gorundugunu test edin
 
